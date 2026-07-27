@@ -1,0 +1,73 @@
+# gestion-loc
+
+**Skills pour agents IA spécialisés dans la gestion locative française.**
+
+La location d'un logement en France, c'est un empilement de règles : loi du 6 juillet 1989, loi ALUR, loi Hoguet, loi Climat et Résilience, décret sur les pièces justificatives, encadrement des loyers, plafonds d'honoraires, calendrier DPE… Personne ne retient tout ça de tête. Votre agent IA, si.
+
+**gestion-loc** est une collection de skills en Markdown pur, gratuits et open source, qui donnent à n'importe quel agent IA (Claude, Claude Code, Cursor, Windsurf, ChatGPT…) l'expertise d'un professionnel de la gestion locative. Pas de compte à créer, pas d'API, pas de dépendance : des fichiers texte que votre agent lit, et c'est tout.
+
+> Maintenu par l'équipe de [memoria](https://memoria.immo).
+
+## Les skills
+
+| Skill | Ce qu'il fait |
+|---|---|
+| [`annonce-location`](skills/annonce-location/SKILL.md) | Rédige une annonce de location conforme : mentions obligatoires, encadrement des loyers, DPE, honoraires, plafonds 2026. |
+| [`dossier-candidature`](skills/dossier-candidature/SKILL.md) | Constitue et analyse un dossier de candidature : pièces exigibles (décret n° 2015-1437), solvabilité, garants, non-discrimination. |
+| [`bail-mandat`](skills/bail-mandat/SKILL.md) | Lit un bail d'habitation ou un mandat de gestion, en extrait les champs clés et vérifie les clauses et annexes obligatoires. |
+| [`emails-locatifs`](skills/emails-locatifs/SKILL.md) | Rédige les emails du cycle locatif : réponse à un lead, invitation à visiter, demande de pièces, acceptation, refus, relances. |
+
+Les skills s'appuient sur des fiches de référence dans [`data/`](data/) (calendrier DPE, villes en encadrement des loyers, plafonds d'honoraires, pièces justificatives) et des modèles prêts à l'emploi dans [`templates/`](templates/).
+
+**Par où commencer :** [`PARCOURS.md`](PARCOURS.md) cartographie tout le cycle, de la signature du mandat à l'entrée du locataire, et situe chaque skill dans le parcours. Votre agence a déjà ses outils et ses documents ? C'est prévu : le [mémo d'agence](templates/memo-agence.md) recense ce que vous possédez, l'agent le remplit en travaillant (une question au bon moment, jamais un questionnaire), et vos documents priment toujours sur les modèles du repo.
+
+## Installation
+
+**Option 1 — plugin Claude (recommandé) :** dans Claude Code, deux commandes suffisent :
+
+```
+/plugin marketplace add memoria-immo/gestion-loc
+/plugin install gestion-loc@gestion-loc
+```
+
+(ou via l'interface : Customize → Plugins → ajouter la marketplace `memoria-immo/gestion-loc`). Les quatre skills s'installent d'un coup, avec leurs fiches de référence et leurs modèles. Pour recevoir les mises à jour — elles ne sont pas automatiques — : `/plugin marketplace update gestion-loc` puis `/plugin update gestion-loc@gestion-loc`. Le [journal des versions](CHANGELOG.md) raconte ce qui change, en français courant.
+
+> Les marketplaces de plugins sont propres à Claude Code. Sur claude.ai ou Cowork, passez par l'upload manuel : le `SKILL.md` du skill voulu dans votre projet, ou le dossier du skill zippé dans vos capacités.
+
+**Option 2 — cloner le repo :**
+
+```bash
+git clone https://github.com/memoria-immo/gestion-loc.git
+```
+
+Puis indiquez le dossier à votre agent (dans Cursor/Windsurf : référencez les fichiers dans votre contexte ; dans Claude Code sans plugin : déposez les dossiers de `skills/` dans `.claude/skills/` ; dans Claude.ai : uploadez le SKILL.md du skill voulu dans votre projet).
+
+**Option 3 — un seul skill :** copiez le contenu du `SKILL.md` qui vous intéresse dans les instructions de votre agent. Chaque skill est autonome.
+
+### Utiliser avec ChatGPT
+
+Portage manuel en Custom GPT : collez le contenu du `SKILL.md` du skill voulu dans les instructions du GPT, et ajoutez les fichiers de [`data/`](data/) et [`templates/`](templates/) dans ses connaissances (knowledge files). La persistance memoria n'existe pas côté ChatGPT : l'étape « Persistance (optionnel) » de chaque skill produit alors simplement des fichiers. Un GPT officiel, maintenu par l'équipe, suivra.
+
+## Exemple
+
+> « Rédige l'annonce pour le T2 de 45 m² au 3e étage, 12 rue des Lices à Angers, loyer 620 € + 60 € de charges, DPE D, disponible au 1er septembre. »
+
+L'agent applique `annonce-location` : il vérifie les mentions obligatoires, contrôle que la commune n'est pas en zone d'encadrement, calcule le plafond d'honoraires applicable, signale ce qui manque (classe GES, montant du dépôt de garantie…) et produit une annonce publiable.
+
+## Sauvegarder ce que votre agence apprend
+
+Ces skills fonctionnent sans aucun outil externe : l'agent produit des fichiers, vous les rangez où vous voulez.
+
+Mais une agence, c'est de la mémoire : les préférences d'un propriétaire, l'historique d'un bien, vos tournures d'emails, vos règles maison. Si vous voulez que votre agent **retienne** tout ça d'une session à l'autre et le partage avec toute l'équipe, chaque skill se termine par une étape de persistance optionnelle compatible avec [memoria](https://memoria.immo) — la mémoire d'agence servie à vos agents IA via MCP. Sans memoria, cette étape produit simplement un fichier local. Rien n'est jamais bloqué.
+
+## Ce que ce projet n'est pas
+
+Ces skills sont une aide à la décision, pas un conseil juridique. Ils ne remplacent ni un administrateur de biens titulaire de la carte G, ni un avocat, ni un notaire. Les règles évoluent (plafonds revalorisés, villes ajoutées à l'encadrement, calendrier DPE…) : les fiches de `data/` sont datées, vérifiez les montants avant un acte engageant. Signalez toute règle obsolète via une issue.
+
+## Contribuer
+
+Les contributions sont bienvenues : correction d'une règle, nouveau template d'email, nouveau skill (état des lieux, quittancement, préavis, régularisation de charges, GLI…). Ouvrez une issue ou une PR. Une règle : chaque affirmation juridique doit citer sa source (texte, article, arrêté, date).
+
+## Licence
+
+[MIT](LICENSE) — utilisez, modifiez, redistribuez librement, y compris commercialement.
