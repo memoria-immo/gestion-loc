@@ -1,6 +1,6 @@
 ---
 name: demarrage
-description: Bien démarrer avec gestion-loc : présenter ce que les skills savent faire, créer le mémo d'agence et orienter vers la bonne tâche. À utiliser juste après l'installation du plugin, ou quand l'utilisateur demande par où commencer, comment ça marche, ce que vous pouvez faire pour lui (« que pouvez-vous faire ? », « je viens d'installer gestion-loc »), ou veut configurer son agence.
+description: "Bien démarrer avec gestion-loc : présenter ce que les skills savent faire, créer le mémo d'agence et orienter vers la bonne tâche. À utiliser juste après l'installation du plugin, ou quand l'utilisateur demande par où commencer, comment ça marche, ce que vous pouvez faire pour lui (« que pouvez-vous faire ? », « je viens d'installer gestion-loc »), ou veut configurer son agence."
 ---
 
 # Bien démarrer

@@ -1,6 +1,6 @@
 ---
 name: etat-des-lieux-entree
-description: Préparer et sécuriser l'état des lieux d'entrée : cadre légal (art. 3-2 loi de 1989, décret n° 2016-382), grille de préparation pièce par pièce, compteurs, clés, photos, délais de complément. À utiliser quand une entrée dans les lieux approche ou vient d'avoir lieu.
+description: "Préparer et sécuriser l'état des lieux d'entrée : cadre légal (art. 3-2 loi de 1989, décret n° 2016-382), grille de préparation pièce par pièce, compteurs, clés, photos, délais de complément. À utiliser quand une entrée dans les lieux approche ou vient d'avoir lieu."
 ---
 
 # État des lieux d'entrée

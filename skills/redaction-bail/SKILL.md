@@ -1,6 +1,6 @@
 ---
 name: redaction-bail
-description: Préparer un bail d'habitation à signer (vide ou meublé, résidence principale) et l'acte de cautionnement : pré-remplir le modèle de l'agence, vérifier champs, clauses et annexes avant signature. À utiliser quand un candidat est retenu et que le bail doit être rédigé.
+description: "Préparer un bail d'habitation à signer (vide ou meublé, résidence principale) et l'acte de cautionnement : pré-remplir le modèle de l'agence, vérifier champs, clauses et annexes avant signature. À utiliser quand un candidat est retenu et que le bail doit être rédigé."
 ---
 
 # Préparation du bail et du cautionnement

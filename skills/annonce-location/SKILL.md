@@ -1,6 +1,6 @@
 ---
 name: annonce-location
-description: Rédiger une annonce de location conforme au droit français : mentions obligatoires, encadrement des loyers, DPE, honoraires. À utiliser pour créer ou corriger l'annonce d'un logement à louer (vide ou meublé, résidence principale).
+description: "Rédiger une annonce de location conforme au droit français : mentions obligatoires, encadrement des loyers, DPE, honoraires. À utiliser pour créer ou corriger l'annonce d'un logement à louer (vide ou meublé, résidence principale)."
 ---
 
 # Annonce de location conforme

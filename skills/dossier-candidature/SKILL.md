@@ -1,6 +1,6 @@
 ---
 name: dossier-candidature
-description: Constituer, vérifier et analyser un dossier de candidature locative : pièces exigibles (décret n° 2015-1437), solvabilité, garants, non-discrimination. À utiliser quand un candidat postule pour une location ou qu'il faut comparer des dossiers.
+description: "Constituer, vérifier et analyser un dossier de candidature locative : pièces exigibles (décret n° 2015-1437), solvabilité, garants, non-discrimination. À utiliser quand un candidat postule pour une location ou qu'il faut comparer des dossiers."
 ---
 
 # Dossier de candidature locative

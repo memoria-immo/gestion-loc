@@ -1,6 +1,6 @@
 ---
 name: emails-locatifs
-description: Rédiger les emails du cycle locatif côté agence ou bailleur : réponse à un lead, invitation à visiter, demande de pièces, acceptation, refus, relance propriétaire, réception de préavis. À utiliser pour tout email lié à une location, un candidat ou un propriétaire.
+description: "Rédiger les emails du cycle locatif côté agence ou bailleur : réponse à un lead, invitation à visiter, demande de pièces, acceptation, refus, relance propriétaire, réception de préavis. À utiliser pour tout email lié à une location, un candidat ou un propriétaire."
 ---
 
 # Emails du cycle locatif
