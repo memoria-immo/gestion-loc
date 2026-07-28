@@ -26,8 +26,8 @@ Parties (bailleur, locataire·s, mandataire), désignation du logement (adresse,
 - **Durée et dépôt** cohérents avec le régime : dépôt max 1 mois HC (vide), 2 mois (meublé) ; aucun dépôt exigible pour un bail mobilité.
 - **Zone encadrée** (`data/encadrement-loyers.md`) : loyer de référence, référence majoré et loyer de base mentionnés ; loyer de base ≤ référence majoré ; complément de loyer justifié et absent si DPE F/G.
 - **DPE** (`data/dpe-calendrier.md`) : classe compatible avec la mise en location à la date d'effet.
-- **Clauses réputées non écrites** (art. 4, loi de 1989 ; exemples fréquents) : prélèvement automatique imposé, pénalités forfaitaires pour retard, interdiction d'héberger des proches, résiliation pour motif autre que les cas légaux, cumul assurance imposée par le bailleur…
-- **Annexes obligatoires** : dossier de diagnostic technique (DPE ; CREP si construction < 1949 ; état amiante ; état de l'installation électrique et gaz si > 15 ans ; état des risques (ERP) si zone concernée ; diagnostic bruit si zone d'exposition aéroportuaire), notice d'information, état des lieux d'entrée, extraits du règlement de copropriété le cas échéant, inventaire du mobilier (meublé), grille de vétusté si convenue.
+- **Clauses réputées non écrites** (art. 4, loi de 1989) : passez le bail contre la liste de `data/clauses-annexes-bail.md` ; toute clause qui y figure est signalée, même si elle a l'air standard.
+- **Annexes obligatoires** : cochez la liste de `data/clauses-annexes-bail.md` (dossier de diagnostic technique détaillé dans `data/diagnostics-location.md`, notice d'information, état des lieux d'entrée, extraits du règlement de copropriété, inventaire du mobilier en meublé, grille de vétusté si convenue).
 
 ## B. Mandat de gestion / de location (loi Hoguet, n° 70-9 du 2 janvier 1970)
 

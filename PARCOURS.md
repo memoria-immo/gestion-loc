@@ -19,8 +19,8 @@ Dans les phases ci-dessous, les encadrés **« L'agence a peut-être déjà »**
 
 1. **Premier contact et visite conseil** : visiter le bien, évaluer son état, estimer le loyer de marché, et vérifier ce que le droit permet (encadrement des loyers, gel du loyer si DPE F/G, plafonnement de la relocation en zone tendue).
 2. **Vérifications côté propriétaire** : identité, titre de propriété, RIB ; si copropriété, règlement et restrictions éventuelles ; si indivision ou SCI, pouvoir du signataire.
-3. **Audit de louabilité** : décence (≥ 9 m², 2,20 m sous plafond, équipements minimaux) et DPE compatible ([`data/dpe-calendrier.md`](data/dpe-calendrier.md)) ; sinon, conseiller les travaux avant toute mise en location.
-4. **Collecte des diagnostics** : DPE, CREP (avant 1949), amiante, électricité/gaz (> 15 ans), ERP, bruit (zone aéroportuaire). Commander les manquants.
+3. **Audit de louabilité** : décence ([`data/decence.md`](data/decence.md)) et DPE compatible ([`data/dpe-calendrier.md`](data/dpe-calendrier.md)) ; sinon, conseiller les travaux avant toute mise en location. → skill [`louabilite-diagnostics`](skills/louabilite-diagnostics/SKILL.md).
+4. **Collecte des diagnostics** : DPE, CREP (avant 1949), amiante, électricité/gaz (> 15 ans), ERP, bruit (zone aéroportuaire) ; validités dans [`data/diagnostics-location.md`](data/diagnostics-location.md). Commander les manquants. → skill [`louabilite-diagnostics`](skills/louabilite-diagnostics/SKILL.md).
 5. **Signature du mandat** : écrit, deux exemplaires, numéro au registre des mandats, missions et honoraires précis, mentions loi Hoguet. → skill [`bail-mandat`](skills/bail-mandat/SKILL.md) pour le contrôle.
 6. **Cadrage avec le propriétaire** : loyer et charges, meublé/vide, critères de sélection objectifs écrits, garanties souhaitées (Visale, GLI, garant), disponibilité, jeux de clés.
 
@@ -54,15 +54,15 @@ Dans les phases ci-dessous, les encadrés **« L'agence a peut-être déjà »**
 ## Phase 5 : du oui à la signature
 
 17. **Souscrire la GLI** si prévue : l'agrément de l'assureur conditionne la suite.
-18. **Rédiger le bail** : bail type du décret 2015-587, annexes complètes (DDT, notice, extraits de règlement de copro, inventaire meublé, grille de vétusté), clause de solidarité si colocation. → contrôle par [`bail-mandat`](skills/bail-mandat/SKILL.md).
-19. **Collecter avant signature** : attestation d'assurance habitation du locataire, acte de cautionnement signé du garant, visa Visale le cas échéant.
+18. **Rédiger le bail** : bail type du décret 2015-587, annexes complètes ([`data/clauses-annexes-bail.md`](data/clauses-annexes-bail.md)), clause de solidarité si colocation. → skill [`redaction-bail`](skills/redaction-bail/SKILL.md) pour préparer, [`bail-mandat`](skills/bail-mandat/SKILL.md) pour contrôler un bail déjà rédigé.
+19. **Collecter avant signature** : attestation d'assurance habitation du locataire, acte de cautionnement signé du garant ([`redaction-bail`](skills/redaction-bail/SKILL.md)), visa Visale le cas échéant.
 20. **Signer et encaisser** : signature (électronique ou présentiel), puis dépôt de garantie, premier loyer au prorata et honoraires, jamais avant la signature.
 
 > **L'agence a peut-être déjà** : sa trame de bail et son acte de cautionnement ; son outil de signature électronique ; son process d'encaissement (compte séquestre, virement, dates de reversement mandant).
 
 ## Phase 6 : l'entrée dans les lieux
 
-21. **État des lieux d'entrée** : contradictoire, pièce par pièce, photos datées, relevés de compteurs, annexé au bail. C'est lui qui décidera du sort du dépôt de garantie des années plus tard.
+21. **État des lieux d'entrée** : contradictoire, pièce par pièce, photos datées, relevés de compteurs, annexé au bail. C'est lui qui décidera du sort du dépôt de garantie des années plus tard. → skill [`etat-des-lieux-entree`](skills/etat-des-lieux-entree/SKILL.md).
 22. **Remise des clés** : inventaire des jeux remis, consignes pratiques, contacts d'urgence.
 23. **Bascules administratives** : contrats d'énergie, information du syndic, aide CAF/APL si demandée.
 24. **Clôture** : quittance du premier loyer, reversement au propriétaire, compte-rendu de mise en location, archivage complet du dossier. La gestion courante prend le relais, et c'est là que la mémoire d'agence devient précieuse.
@@ -73,4 +73,4 @@ Dans les phases ci-dessous, les encadrés **« L'agence a peut-être déjà »**
 
 ## Couverture actuelle et suites
 
-Les skills v1 couvrent les étapes 5, 9–16, 18 (contrôle). Les manques les plus utiles pour une v2, dans l'ordre du parcours : **préparation de mise en location** (étapes 3–4, contrôles louabilité/diagnostics), **rédaction de bail et cautionnement** (18–19), **état des lieux** (21), puis quittancement/IRL, régularisation de charges, préavis et sortie.
+Les skills couvrent aujourd'hui les étapes 3–5 ([`louabilite-diagnostics`](skills/louabilite-diagnostics/SKILL.md), [`bail-mandat`](skills/bail-mandat/SKILL.md)), 9–16 (annonce, leads, visites, dossiers, notification), 18–19 ([`redaction-bail`](skills/redaction-bail/SKILL.md), contrôle par [`bail-mandat`](skills/bail-mandat/SKILL.md)) et 21 ([`etat-des-lieux-entree`](skills/etat-des-lieux-entree/SKILL.md)). Les manques les plus utiles pour les prochaines versions, dans l'ordre de la vie du bail : quittancement et révision IRL, régularisation de charges, préavis et sortie (avec l'état des lieux de sortie), impayés en phase amiable, GLI/Visale.

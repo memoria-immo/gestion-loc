@@ -41,12 +41,17 @@ Si un contrôle échoue, dites-le AVANT de rédiger, avec la règle et la source
 - Commune (et arrondissement).
 - Surface habitable en m².
 - Classes énergie et climat + estimation des dépenses annuelles d'énergie (avec année de référence) ; mention « logement à consommation énergétique excessive » pour F et G.
+- En zone concernée par l'état des risques (`data/diagnostics-location.md`) : « Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr ».
 
 ## Étape 3 : rédaction
 
 - **Titre** : ≤ 120 caractères, type + pièces + surface + quartier/commune + un atout réel. Pas de superlatifs creux.
 - **Corps** : du concret et vérifiable (orientation, étage, rangements, transports, date de disponibilité). Structure courte : accroche, le bien, l'immeuble/le quartier, les conditions financières, contact. Interdit : mensonge, surface embellie, photos trompeuses, critères discriminatoires (« pas de… »). Aucun public ne peut être exclu.
 - Utilisez `templates/annonce.md` comme squelette.
+
+## Cas colocation
+
+Le régime change l'annonce. En **bail collectif** : une annonce unique pour le logement entier, qui précise le nombre de chambres et la destination colocation. En **baux individuels** : une annonce par chambre, avec la surface de l'espace privatif, les pièces communes accessibles et le loyer de la chambre ; en zone d'encadrement, la somme des loyers de toutes les chambres reste plafonnée au loyer applicable au logement entier (art. 8-1, loi de 1989). Dans les deux cas, les mentions obligatoires de l'étape 2 s'appliquent inchangées.
 
 ## Étape 4 : livrer et vérifier
 

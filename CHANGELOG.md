@@ -2,6 +2,13 @@
 
 Ce journal raconte ce qui change à chaque version, en français courant. Si vous avez installé gestion-loc comme plugin Claude, chaque mise à jour du plugin vous apporte tout ce qui est décrit ici.
 
+## Version 0.3 (28 juillet 2026)
+
+- **Trois nouveaux skills** qui complètent le parcours jusqu'à l'entrée du locataire : vérifier qu'un bien peut être loué et contrôler ses diagnostics (`louabilite-diagnostics`), préparer le bail à signer et l'acte de cautionnement (`redaction-bail`), préparer l'état des lieux d'entrée (`etat-des-lieux-entree`).
+- **Trois nouvelles fiches de référence**, datées et sourcées : les critères de décence, les diagnostics exigibles en location avec leurs durées de validité, et les clauses interdites et annexes obligatoires du bail, qui devient la référence commune de `bail-mandat` et `redaction-bail`.
+- **La colocation traitée là où elle change les règles** : annonce par chambre ou annonce unique, un dossier par colocataire, solidarité en bail collectif, décence des espaces privatifs en baux individuels.
+- **Deux modèles de plus** : la grille de préparation d'état des lieux d'entrée, et l'email de compte-rendu au propriétaire (le skill `emails-locatifs` décrivait la situation, le modèle manquait).
+
 ## Version 0.2 (28 juillet 2026)
 
 - **Un guide de démarrage** (`demarrage`) : à la première utilisation, ou quand vous demandez « par où commencer ? », « que pouvez-vous faire ? », l'agent présente les skills, crée votre mémo d'agence en deux questions (nom, communes ; il déduit lui-même encadrement des loyers et zone d'honoraires, et vous les fait confirmer), puis enchaîne sur votre tâche du moment. Jamais de questionnaire : le reste du mémo se remplit en travaillant.

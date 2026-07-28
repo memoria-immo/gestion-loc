@@ -39,6 +39,10 @@ Produisez la liste exacte de ce qui manque, formulée pour être envoyée telle 
 - **Cohérence** : croiser bulletins de salaire ↔ avis d'imposition ↔ employeur (ordre de grandeur, dates, ancienneté). Signaler les incohérences factuellement, sans accuser : un écart peut avoir une explication légitime.
 - **Garanties** : garant personne physique (mêmes vérifications, usage courant ≥ 3× le loyer), garantie Visale (gratuite, à privilégier pour les jeunes/CDD), GLI (attention : la plupart des contrats GLI interdisent le cumul avec un garant personne physique, sauf étudiants/apprentis).
 
+## Cas colocation
+
+Un dossier complet par colocataire, avec les mêmes pièces et les mêmes interdits du décret. La solvabilité s'apprécie selon la structure du bail : en **bail collectif** avec clause de solidarité, les revenus se cumulent et un garant peut couvrir l'ensemble des colocataires ; en **baux individuels**, chaque colocataire est évalué seul, sur le loyer de sa chambre. L'acte de cautionnement précise qui il garantit, et le non-cumul GLI + garant personne physique s'apprécie bail par bail.
+
 ## Étape 3 : synthèse comparative
 
 Si plusieurs dossiers : tableau comparatif sur critères objectifs uniquement (complétude, taux d'effort, type de garantie, date de disponibilité, ancienneté professionnelle). **Jamais** de colonne ou de commentaire sur l'origine, le nom, la situation familiale, l'âge, la santé, etc. La décision finale appartient au bailleur ; votre rôle est de présenter des faits vérifiables et sourcés.

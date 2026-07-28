@@ -9,4 +9,5 @@ Bases utilisées par le skill `emails-locatifs`. Variables entre `{{ }}`. À ada
 | `demande-pieces.md` | Pièces manquantes au dossier |
 | `acceptation.md` | Candidature retenue |
 | `refus.md` | Candidature non retenue |
+| `compte-rendu-proprietaire.md` | Point de commercialisation au propriétaire |
 | `accuse-preavis.md` | Accusé de réception d'un préavis de départ |

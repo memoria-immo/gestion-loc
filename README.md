@@ -12,12 +12,15 @@ La location d'un logement en France, c'est un empilement de règles : loi du 6 j
 
 | Skill | Ce qu'il fait |
 |---|---|
+| [`louabilite-diagnostics`](skills/louabilite-diagnostics/SKILL.md) | Vérifie qu'un bien peut être loué (décence, DPE) et contrôle le dossier de diagnostics : lesquels sont exigés, lesquels manquent ou expirent. |
 | [`annonce-location`](skills/annonce-location/SKILL.md) | Rédige une annonce de location conforme : mentions obligatoires, encadrement des loyers, DPE, honoraires, plafonds 2026. |
 | [`dossier-candidature`](skills/dossier-candidature/SKILL.md) | Constitue et analyse un dossier de candidature : pièces exigibles (décret n° 2015-1437), solvabilité, garants, non-discrimination. |
 | [`bail-mandat`](skills/bail-mandat/SKILL.md) | Lit un bail d'habitation ou un mandat de gestion, en extrait les champs clés et vérifie les clauses et annexes obligatoires. |
+| [`redaction-bail`](skills/redaction-bail/SKILL.md) | Prépare le dossier de bail à signer : pré-remplit le modèle de l'agence, contrôle clauses et annexes, rédige l'acte de cautionnement. |
+| [`etat-des-lieux-entree`](skills/etat-des-lieux-entree/SKILL.md) | Prépare l'état des lieux d'entrée : cadre légal, grille pièce par pièce, compteurs, clés, délais de complément. |
 | [`emails-locatifs`](skills/emails-locatifs/SKILL.md) | Rédige les emails du cycle locatif : réponse à un lead, invitation à visiter, demande de pièces, acceptation, refus, relances. |
 
-Les skills s'appuient sur des fiches de référence dans [`data/`](data/) (calendrier DPE, villes en encadrement des loyers, plafonds d'honoraires, pièces justificatives) et des modèles prêts à l'emploi dans [`templates/`](templates/). À côté des quatre skills métier, un guide de démarrage ([`demarrage`](skills/demarrage/SKILL.md)) accueille la première utilisation : il présente les skills, crée votre mémo d'agence en deux questions et enchaîne sur votre tâche du moment.
+Les skills s'appuient sur des fiches de référence dans [`data/`](data/) (calendrier DPE, villes en encadrement des loyers, plafonds d'honoraires, pièces justificatives, décence, diagnostics, clauses et annexes du bail) et des modèles prêts à l'emploi dans [`templates/`](templates/). À côté des sept skills métier, un guide de démarrage ([`demarrage`](skills/demarrage/SKILL.md)) accueille la première utilisation : il présente les skills, crée votre mémo d'agence en deux questions et enchaîne sur votre tâche du moment.
 
 **Par où commencer :** [`PARCOURS.md`](PARCOURS.md) cartographie tout le cycle, de la signature du mandat à l'entrée du locataire, et situe chaque skill dans le parcours. Votre agence a déjà ses outils et ses documents ? C'est prévu : le [mémo d'agence](templates/memo-agence.md) recense ce que vous possédez, l'agent le remplit en travaillant (une question au bon moment, jamais un questionnaire), et vos documents priment toujours sur les modèles du repo.
 
@@ -30,7 +33,7 @@ Les skills s'appuient sur des fiches de référence dans [`data/`](data/) (calen
 /plugin install gestion-loc@gestion-loc
 ```
 
-(ou via l'interface : Customize → Plugins → ajouter la marketplace `memoria-immo/gestion-loc`). Les quatre skills métier et le guide de démarrage s'installent d'un coup, avec leurs fiches de référence et leurs modèles. Une fois installé, dites « aidez-moi à démarrer » : l'agent se présente, crée votre mémo d'agence (deux questions, pas un questionnaire) et vous met au travail. Les mises à jour ne sont pas automatiques : pour les recevoir, `/plugin marketplace update gestion-loc` puis `/plugin update gestion-loc@gestion-loc`. Le [journal des versions](CHANGELOG.md) raconte ce qui change, en français courant.
+(ou via l'interface : Customize → Plugins → ajouter la marketplace `memoria-immo/gestion-loc`). Les sept skills métier et le guide de démarrage s'installent d'un coup, avec leurs fiches de référence et leurs modèles. Une fois installé, dites « aidez-moi à démarrer » : l'agent se présente, crée votre mémo d'agence (deux questions, pas un questionnaire) et vous met au travail. Les mises à jour ne sont pas automatiques : pour les recevoir, `/plugin marketplace update gestion-loc` puis `/plugin update gestion-loc@gestion-loc`. Le [journal des versions](CHANGELOG.md) raconte ce qui change, en français courant.
 
 > Les marketplaces de plugins sont propres à Claude Code. Sur claude.ai ou Cowork, ajoutez les fichiers à la main : le `SKILL.md` du skill voulu dans votre projet, ou le dossier du skill zippé dans vos capacités.
 
@@ -66,7 +69,7 @@ Ces skills sont une aide à la décision, pas un conseil juridique. Ils ne rempl
 
 ## Contribuer
 
-Les contributions sont bienvenues : correction d'une règle, nouveau template d'email, nouveau skill (état des lieux, quittancement, préavis, régularisation de charges, GLI…). Ouvrez une issue ou une PR. Une règle : chaque affirmation juridique doit citer sa source (texte, article, arrêté, date).
+Les contributions sont bienvenues : correction d'une règle, nouveau template d'email, nouveau skill (quittancement et révision IRL, régularisation de charges, préavis et sortie, impayés, GLI…). Ouvrez une issue ou une PR. Une règle : chaque affirmation juridique doit citer sa source (texte, article, arrêté, date).
 
 ## Licence
 

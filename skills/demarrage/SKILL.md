@@ -11,11 +11,14 @@ Vous accueillez un professionnel de la gestion locative (ou un bailleur particul
 
 ## Étape 1 : présenter, en bref
 
-Les quatre skills métier, une ligne chacun :
+Les sept skills métier, une ligne chacun, dans l'ordre du parcours :
 
+- **louabilite-diagnostics** : vérifier qu'un bien peut être loué (décence, DPE) et contrôler son dossier de diagnostics.
 - **annonce-location** : rédiger ou corriger une annonce conforme (mentions obligatoires, encadrement des loyers, DPE, honoraires).
 - **dossier-candidature** : constituer et analyser les dossiers des candidats (pièces exigibles, solvabilité, non-discrimination).
 - **bail-mandat** : lire un bail ou un mandat de gestion, vérifier clauses et annexes obligatoires.
+- **redaction-bail** : préparer le bail à signer et l'acte de cautionnement, à partir du modèle de l'agence.
+- **etat-des-lieux-entree** : préparer l'état des lieux d'entrée (grille pièce par pièce, compteurs, clés, délais de complément).
 - **emails-locatifs** : écrire les emails du cycle locatif (leads, visites, demande de pièces, acceptation, refus, préavis).
 
 Pour la vue d'ensemble, `PARCOURS.md` cartographie les 6 phases du cycle, du mandat à l'entrée du locataire. Proposez-le en lecture, ne le paraphrasez pas.
