@@ -2,14 +2,14 @@
 
 > Copier ce fichier en `memo-agence.md` à la racine de votre espace de travail. C'est la carte d'identité opérationnelle de votre agence : l'agent le consulte **avant chaque skill** et utilise VOS outils et VOS documents plutôt que les modèles génériques du repo.
 >
-> **Consigne pour l'agent** : ne fais jamais remplir ce mémo d'un bloc. Quand une information te manque en travaillant, pose la question à ce moment-là (une ou deux questions max), note la réponse ici, et continue. Un champ vide = « je ne sais pas encore », pas « l'agence n'en a pas ». Quand l'agence n'a rien pour un champ, note « aucun — utiliser le modèle du repo ».
+> **Consigne pour l'agent** : ne faites jamais remplir ce mémo d'un bloc. Quand une information vous manque en travaillant, posez la question à ce moment-là (une ou deux questions max), notez la réponse ici, et continuez. Un champ vide = « je ne sais pas encore », pas « l'agence n'en a pas ». Quand l'agence n'a rien pour un champ, notez « aucun : utiliser le modèle du repo ».
 >
 > Avec [memoria](https://memoria.immo), ce fichier devient inutile : templates d'agence et mémoire d'agence (servis via MCP) jouent ce rôle, versionnés et partagés en équipe. Ce mémo est le mode « fichier local » de la même idée.
 
 ## Identité
 
 - Nom de l'agence :
-- Zone(s) d'activité (communes) — préciser lesquelles sont en zone tendue / très tendue / encadrement des loyers :
+- Zone(s) d'activité (communes), en précisant zone tendue / très tendue / encadrement des loyers :
 - Carte professionnelle (G, T) et garant financier :
 - Signature type des emails :
 
@@ -28,7 +28,7 @@
 
 ## Documents types de l'agence
 
-Pour chaque ligne : « fichier + emplacement » si l'agence a le sien, ou « aucun — utiliser le modèle du repo ».
+Pour chaque ligne : « fichier + emplacement » si l'agence a le sien, ou « aucun : utiliser le modèle du repo ».
 
 | Document | Le nôtre ? Où ? |
 |---|---|

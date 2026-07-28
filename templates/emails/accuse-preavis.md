@@ -1,4 +1,4 @@
-**Objet :** Accusé de réception de votre préavis — {{adresse}}
+**Objet :** Accusé de réception de votre préavis ({{adresse}})
 
 Bonjour {{civilite_nom}},
 

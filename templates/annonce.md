@@ -4,7 +4,7 @@
 
 ## Titre (≤ 120 caractères)
 
-{{type}} {{nb_pieces}} pièces {{surface}} m² — {{quartier_ou_commune}}{{atout_court}}
+{{type}} {{nb_pieces}} pièces {{surface}} m², {{quartier_ou_commune}}{{atout_court}}
 
 ## Corps
 
@@ -24,4 +24,4 @@
 
 **Diagnostic énergétique.** Classe énergie : {{classe_dpe}}. Classe climat : {{classe_ges}}. Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre {{energie_min}} € et {{energie_max}} € (prix de l'énergie indexés au {{annee_reference}}). <!-- F ou G uniquement --> Logement à consommation énergétique excessive.
 
-**Contact.** {{contact}} — {{reference_annonce}}.
+**Contact.** {{contact}} (réf. {{reference_annonce}}).

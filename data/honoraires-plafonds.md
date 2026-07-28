@@ -1,7 +1,7 @@
-# Plafonds d'honoraires de location — fiche de référence
+# Plafonds d'honoraires de location
 
 > Dernière vérification : juillet 2026. Sources : loi ALUR (art. 5, loi du 6 juillet 1989), décret n° 2014-890 du 1er août 2014, arrêté du 13 novembre 2025 (revalorisation applicable aux baux signés à compter du 1er janvier 2026).
-> Prochaine revue : **fin 2026** — vérifier si un nouvel arrêté modifie les plafonds (la revalorisation de 2025 était la première depuis 2014 ; rien ne garantit un rythme annuel).
+> Prochaine revue : **fin 2026**, pour vérifier si un nouvel arrêté modifie les plafonds (la revalorisation de 2025 était la première depuis 2014 ; rien ne garantit un rythme annuel).
 
 ## Ce qui peut être facturé au locataire
 

@@ -1,6 +1,6 @@
 # Modèles d'emails locatifs
 
-Bases utilisées par le skill `emails-locatifs`. Variables entre `{{ }}`. À adapter au ton de votre agence — et si vous utilisez [memoria](https://memoria.immo), vos propres templates d'agence priment sur ceux-ci.
+Bases utilisées par le skill `emails-locatifs`. Variables entre `{{ }}`. À adapter au ton de votre agence. Si vous utilisez [memoria](https://memoria.immo), vos propres templates d'agence priment sur ceux-ci.
 
 | Fichier | Situation |
 |---|---|

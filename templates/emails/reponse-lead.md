@@ -1,4 +1,4 @@
-**Objet :** Votre demande — {{type}} {{surface}} m² à {{commune}} (réf. {{reference}})
+**Objet :** Votre demande : {{type}} {{surface}} m² à {{commune}} (réf. {{reference}})
 
 Bonjour {{civilite_nom}},
 

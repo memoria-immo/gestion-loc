@@ -1,4 +1,4 @@
-**Objet :** Votre dossier de candidature — pièces manquantes (réf. {{reference}})
+**Objet :** Votre dossier de candidature : pièces manquantes (réf. {{reference}})
 
 Bonjour {{civilite_nom}},
 

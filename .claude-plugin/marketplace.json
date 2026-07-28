@@ -9,7 +9,7 @@
     {
       "name": "gestion-loc",
       "source": "./",
-      "description": "La gestion locative française pour votre agent IA : annonce conforme, dossier de candidature, bail et mandat, emails du cycle locatif. Quatre skills, les fiches réglementaires à jour et les modèles qui vont avec. Gratuit, open source (MIT)."
+      "description": "La gestion locative française pour votre agent IA : annonce conforme, dossier de candidature, bail et mandat, emails du cycle locatif. Quatre skills métier et un guide de démarrage, les fiches réglementaires à jour et les modèles qui vont avec. Gratuit, open source (MIT)."
     }
   ]
 }

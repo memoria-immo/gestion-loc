@@ -1,0 +1,5 @@
+# Configuration locale Claude Code (skills personnels, VOICE.md…)
+.claude/
+
+# macOS
+.DS_Store

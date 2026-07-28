@@ -1,7 +1,7 @@
-# Calendrier DPE et location — fiche de référence
+# Calendrier DPE et location
 
 > Dernière vérification : juillet 2026. Sources : loi Élan (2018), loi Climat et Résilience (2021), art. 6 de la loi du 6 juillet 1989.
-> Prochaine revue : **avant le 1er janvier 2028** — entrée en vigueur de l'interdiction de location des logements classés F (et surveiller tout aménagement législatif du calendrier d'ici là).
+> Prochaine revue : **avant le 1er janvier 2028**, entrée en vigueur de l'interdiction de location des logements classés F (et surveiller tout aménagement législatif du calendrier d'ici là).
 
 ## Interdictions de location (logements énergivores)
 

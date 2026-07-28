@@ -1,7 +1,7 @@
 {
   "name": "gestion-loc",
-  "description": "Skills métier de gestion locative française : rédiger une annonce conforme, constituer et analyser un dossier de candidature, contrôler un bail ou un mandat, écrire les emails du cycle locatif — avec fiches réglementaires datées (DPE, encadrement des loyers, honoraires, pièces justificatives) et modèles prêts à l'emploi.",
-  "version": "0.1.0",
+  "description": "Skills métier de gestion locative française : rédiger une annonce conforme, constituer et analyser un dossier de candidature, contrôler un bail ou un mandat, écrire les emails du cycle locatif — avec fiches réglementaires datées (DPE, encadrement des loyers, honoraires, pièces justificatives), modèles prêts à l'emploi, et un guide de démarrage qui amorce votre mémo d'agence à la première utilisation.",
+  "version": "0.2.0",
   "author": {
     "name": "memoria-immo",
     "url": "https://memoria.immo"

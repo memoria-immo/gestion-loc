@@ -1,8 +1,8 @@
-# Pièces justificatives exigibles du candidat locataire — fiche de référence
+# Pièces justificatives exigibles du candidat locataire
 
 > Dernière vérification : juillet 2026. Source : décret n° 2015-1437 du 5 novembre 2015 (modifié en 2019), pris en application de l'art. 22-2 de la loi du 6 juillet 1989. La liste est **limitative** : tout ce qui n'y figure pas est interdit.
 
-## Candidat locataire — une pièce par catégorie (sauf ressources : cumul possible)
+## Candidat locataire : une pièce par catégorie (sauf ressources, cumul possible)
 
 **1. Identité** (une pièce, en cours de validité, avec photo et signature) : CNI, passeport, permis de conduire, titre de séjour / carte de résident / visa long séjour.
 
@@ -12,9 +12,9 @@
 
 **4. Ressources** (une ou plusieurs) : dernier ou avant-dernier avis d'imposition, 3 derniers bulletins de salaire, justificatif de versement des indemnités/retraites/prestations sociales (dont APL/AL simulables), attestation de ressources CAF, les 2 derniers bilans ou attestation de ressources de l'exercice par un comptable (non-salariés), justificatif de revenus fonciers/rentes/placements, avis d'attribution de bourse.
 
-## Caution (garant personne physique) — mêmes 4 catégories
+## Caution (garant personne physique) : mêmes 4 catégories
 
-Identité, domicile (une pièce), activité professionnelle, ressources — selon la même logique. Pour une caution personne morale : extrait K bis + justificatif d'identité du représentant.
+Identité, domicile (une pièce), activité professionnelle, ressources, selon la même logique. Pour une caution personne morale : extrait K bis + justificatif d'identité du représentant.
 
 ## Ce qu'il est INTERDIT de demander (exemples)
 
@@ -24,8 +24,8 @@ Photo d'identité (hors pièce d'identité), carte Vitale, relevés de compte ba
 
 - Copies acceptées ; documents en langue étrangère : traduction en français et montants convertis en euros peuvent être demandés.
 - **Sanction** : amende administrative jusqu'à **3 000 €** (personne physique) ou **15 000 €** (personne morale) par pièce interdite exigée.
-- Le dossier ne peut être exigé qu'au stade de la candidature sérieuse — pas comme condition de visite.
-- **DossierFacile** (dossierfacile.logement.gouv.fr) : service public gratuit qui produit un dossier conforme et labellisé — l'accepter fluidifie le process.
+- Le dossier ne peut être exigé qu'au stade de la candidature sérieuse, pas comme condition de visite.
+- **DossierFacile** (dossierfacile.logement.gouv.fr) : service public gratuit qui produit un dossier conforme et labellisé ; l'accepter accélère l'instruction des dossiers.
 
 ## Non-discrimination (art. 1er, loi du 6 juillet 1989 ; art. 225-1 code pénal)
 

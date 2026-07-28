@@ -1,4 +1,4 @@
-**Objet :** Bonne nouvelle — votre candidature est retenue ({{adresse}})
+**Objet :** Bonne nouvelle : votre candidature est retenue ({{adresse}})
 
 Bonjour {{civilite_nom}},
 
