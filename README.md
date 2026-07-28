@@ -35,7 +35,7 @@ Les skills s'appuient sur des fiches de référence dans [`data/`](data/) (calen
 
 (ou via l'interface : Customize → Plugins → ajouter la marketplace `memoria-immo/gestion-loc`). Les sept skills métier et le guide de démarrage s'installent d'un coup, avec leurs fiches de référence et leurs modèles. Une fois installé, dites « aidez-moi à démarrer » : l'agent se présente, crée votre mémo d'agence (deux questions, pas un questionnaire) et vous met au travail. Les mises à jour ne sont pas automatiques : pour les recevoir, `/plugin marketplace update gestion-loc` puis `/plugin update gestion-loc@gestion-loc`. Le [journal des versions](CHANGELOG.md) raconte ce qui change, en français courant.
 
-> Les marketplaces de plugins sont propres à Claude Code. Sur claude.ai ou Cowork, ajoutez les fichiers à la main : le `SKILL.md` du skill voulu dans votre projet, ou le dossier du skill zippé dans vos capacités.
+> Les marketplaces de plugins sont propres à Claude Code. Sur claude.ai ou Cowork, ajoutez les fichiers à la main : le `SKILL.md` du skill voulu dans votre projet, ou le dossier du skill zippé dans vos capacités. Pas besoin de zipper vous-même : chaque [release GitHub](https://github.com/memoria-immo/gestion-loc/releases) fournit un zip autoportant par skill, fiches et modèles inclus.
 
 **Option 2 (cloner le repo) :**
 

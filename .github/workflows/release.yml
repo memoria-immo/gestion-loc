@@ -1,0 +1,25 @@
+name: Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Cohérence des skills, fiches et liens
+        run: node scripts/check.mjs
+      - name: Zips autoportants des skills
+        run: node scripts/package.mjs
+      - name: Attacher les zips à la release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload '${{ github.event.release.tag_name }}' dist/*.zip --clobber

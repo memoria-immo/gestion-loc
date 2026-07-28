@@ -3,3 +3,6 @@
 
 # macOS
 .DS_Store
+
+# Zips de packaging (produits par scripts/package.mjs, attachés aux releases par la CI)
+dist/
