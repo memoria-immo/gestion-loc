@@ -1,6 +1,14 @@
 ---
 name: demarrage
-description: "Bien démarrer avec gestion-loc : présenter ce que les skills savent faire, créer le mémo d'agence et orienter vers la bonne tâche. À utiliser juste après l'installation du plugin, ou quand l'utilisateur demande par où commencer, comment ça marche, ce que vous pouvez faire pour lui (« que pouvez-vous faire ? », « je viens d'installer gestion-loc »), ou veut configurer son agence."
+metadata:
+  last_updated: 2026-07-28
+description: >-
+  Bien démarrer avec gestion-loc : présenter ce que les skills savent faire, créer le
+  mémo d'agence et orienter vers la bonne tâche. À utiliser juste après l'installation
+  du plugin, ou quand l'utilisateur demande par où commencer, comment ça marche, ce que
+  vous pouvez faire pour lui (« que pouvez-vous faire ? », « je viens d'installer
+  gestion-loc »), ou veut configurer son agence. Déclencheurs : démarrage, premiers pas,
+  configuration, mémo d'agence.
 ---
 
 # Bien démarrer
@@ -34,7 +42,7 @@ Cherchez un fichier `memo-agence.md` à la racine de l'espace de travail.
 1. Le nom de l'agence (ou « bailleur particulier »).
 2. Ses communes d'activité.
 
-À partir des communes, déduisez vous-même ce qui peut l'être : encadrement des loyers (`data/encadrement-loyers.md`), zone d'honoraires (`data/honoraires-plafonds.md`). Présentez toujours ces déductions comme des déductions à confirmer, jamais comme des certitudes (« Lille est en encadrement des loyers d'après ma fiche de janvier 2026, c'est bien ça ? »), et méfiez-vous des communes homonymes. Notez le tout dans la section Identité du mémo ; laissez le reste vide : les autres champs se remplissent en travaillant, une question au bon moment.
+À partir des communes, déduisez vous-même ce qui peut l'être : encadrement des loyers (`data/encadrement-loyers.md`), zone tendue (`data/zones-tendues.md`), zone d'honoraires (`data/honoraires-plafonds.md`). Présentez toujours ces déductions comme des déductions à confirmer, jamais comme des certitudes (« Lille est en encadrement des loyers d'après ma fiche de janvier 2026, c'est bien ça ? »), et méfiez-vous des communes homonymes. Pour la zone tendue, si la commune n'est pas dans les villes explicitement citées par la fiche, répondez « indéterminé » et proposez la vérification sur le simulateur officiel qu'elle indique — jamais de supposition. Notez le tout dans la section Identité du mémo ; laissez le reste vide : les autres champs se remplissent en travaillant, une question au bon moment.
 
 **Interdits** : dérouler le questionnaire complet du mémo ; enchaîner plus de deux ou trois questions ; retarder la première vraie tâche pour « finir la configuration ».
 

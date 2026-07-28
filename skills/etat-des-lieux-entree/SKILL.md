@@ -1,6 +1,13 @@
 ---
 name: etat-des-lieux-entree
-description: "Préparer et sécuriser l'état des lieux d'entrée : cadre légal (art. 3-2 loi de 1989, décret n° 2016-382), grille de préparation pièce par pièce, compteurs, clés, photos, délais de complément. À utiliser quand une entrée dans les lieux approche ou vient d'avoir lieu."
+metadata:
+  last_updated: 2026-07-28
+description: >-
+  Préparer et sécuriser l'état des lieux d'entrée : cadre légal (art. 3-2 loi de 1989,
+  décret n° 2016-382), grille de préparation pièce par pièce, compteurs, clés, photos,
+  délais de complément. À utiliser quand une entrée dans les lieux approche ou vient
+  d'avoir lieu. Déclencheurs : état des lieux, EDL, entrée du locataire, remise des
+  clés, relevé des compteurs, photos datées.
 ---
 
 # État des lieux d'entrée
@@ -36,6 +43,13 @@ Rappelez au locataire ses droits de complément (art. 3-2, loi de 1989) : 10 jou
 Produisez : (1) la grille de préparation remplie, (2) la liste des points de vigilance propres au bien (équipement fragile, compteur difficile d'accès), (3) les rappels à transmettre au locataire (délais de complément, remise des clés). Ce qui relève d'un désaccord sur l'état du logement se tranche entre les parties ou par commissaire de justice : vous signalez, vous ne validez pas.
 
 Étape suivante du parcours : remise des clés et bascules administratives (phase 6 du parcours).
+
+## Références
+
+Le droit stable de ce skill vit dans les fiches `data/` ci-dessous : consultez-les d'abord, ne repartez pas chercher sur le web ce qu'elles contiennent déjà. Une vérification en ligne (source officielle : Légifrance, service-public.fr) reste de mise quand une fiche le demande, quand sa « Prochaine revue » est dépassée, ou quand la fiche et le document en main se contredisent.
+
+- `data/honoraires-plafonds.md` — plafond de la part locataire pour l'état des lieux d'entrée (arrêté du 13 novembre 2025).
+- `data/clauses-annexes-bail.md` — l'état des lieux parmi les annexes obligatoires du bail (art. 3-2, loi de 1989).
 
 ## Persistance (optionnel)
 

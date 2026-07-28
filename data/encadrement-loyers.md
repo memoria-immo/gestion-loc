@@ -3,6 +3,8 @@
 > Dernière vérification : juillet 2026. Sources : art. 140 de la loi ELAN (2018), arrêtés préfectoraux annuels. L'expérimentation court jusqu'en **novembre 2026** ; sa reconduction ou pérennisation doit être arbitrée fin 2026 : vérifier l'actualité avant toute annonce.
 > Prochaine revue : **novembre 2026**, fin de l'expérimentation ; reconduction, pérennisation ou extinction à vérifier, ainsi que les arrêtés préfectoraux de l'année.
 
+L'encadrement du niveau des loyers ne s'applique que dans les territoires listés ci-dessous, candidats et agréés (art. 140, loi ELAN). Tous sont en zone tendue, mais l'inverse est faux : être en zone tendue (`zones-tendues.md`) n'implique pas l'encadrement — Toulouse, par exemple, est en zone tendue sans encadrement. Hors de ces territoires, en zone tendue, seule l'évolution du loyer à la relocation est plafonnée (`fixation-loyer.md`).
+
 ## Territoires où l'encadrement s'applique (2026)
 
 - **Paris**

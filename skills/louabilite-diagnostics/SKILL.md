@@ -1,6 +1,13 @@
 ---
 name: louabilite-diagnostics
-description: Vérifier qu'un bien peut être mis en location (décence, DPE) et contrôler le dossier de diagnostics (présence, validité). À utiliser à la prise de mandat, avant de préparer une annonce, ou quand un propriétaire confie un bien dont l'état est incertain.
+metadata:
+  last_updated: 2026-07-28
+description: >-
+  Vérifier qu'un bien peut être mis en location (décence, DPE) et contrôler le dossier
+  de diagnostics (présence, validité). À utiliser à la prise de mandat, avant de
+  préparer une annonce, ou quand un propriétaire confie un bien dont l'état est
+  incertain. Déclencheurs : louable, décence, passoire thermique, diagnostic, amiante,
+  plomb, CREP, électricité, gaz, ERP, audit énergétique.
 ---
 
 # Louabilité et diagnostics
@@ -39,6 +46,15 @@ Déroulez la fiche `data/diagnostics-location.md` : pour chaque diagnostic, dite
 Produisez : (1) un verdict de louabilité (louable / louable avec réserves / non louable en l'état), chaque réserve sourcée ; (2) le tableau des diagnostics exigés, présents, manquants et périmés ; (3) la liste des diagnostics à commander, formulée pour être envoyée telle quelle au propriétaire (le diagnostiqueur partenaire de l'agence est peut-être dans le mémo). Les travaux et leur chiffrage se décident avec le propriétaire : vous signalez, vous ne validez pas.
 
 Étape suivante du parcours : l'annonce (`annonce-location`), une fois le bien louable et le DPE en main.
+
+## Références
+
+Le droit stable de ce skill vit dans les fiches `data/` ci-dessous : consultez-les d'abord, ne repartez pas chercher sur le web ce qu'elles contiennent déjà. Une vérification en ligne (source officielle : Légifrance, service-public.fr) reste de mise quand une fiche le demande, quand sa « Prochaine revue » est dépassée, quand le cas dépend d'un montant ou d'une liste locale (arrêté préfectoral, quartier), ou quand la fiche et le document en main se contredisent.
+
+- `data/decence.md` — critères de décence (art. 6, loi de 1989, décret n° 2002-120).
+- `data/dpe-calendrier.md` — calendrier des interdictions et validité du DPE (loi Climat et Résilience).
+- `data/diagnostics-location.md` — diagnostics exigés et durées de validité (art. 3-3, loi de 1989).
+- `data/fixation-loyer.md` — à quel loyer relouer, si la question vient à la prise de mandat (art. 18, loi de 1989).
 
 ## Persistance (optionnel)
 

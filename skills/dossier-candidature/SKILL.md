@@ -1,6 +1,13 @@
 ---
 name: dossier-candidature
-description: "Constituer, vérifier et analyser un dossier de candidature locative : pièces exigibles (décret n° 2015-1437), solvabilité, garants, non-discrimination. À utiliser quand un candidat postule pour une location ou qu'il faut comparer des dossiers."
+metadata:
+  last_updated: 2026-07-28
+description: >-
+  Constituer, vérifier et analyser un dossier de candidature locative : pièces
+  exigibles (décret n° 2015-1437), solvabilité, garants, non-discrimination. À utiliser
+  quand un candidat postule pour une location ou qu'il faut comparer des dossiers.
+  Déclencheurs : candidat, pièces justificatives, DossierFacile, garant, Visale, GLI,
+  taux d'effort, revenus, sélection du locataire.
 ---
 
 # Dossier de candidature locative
@@ -52,6 +59,12 @@ En cas de refus : aucune obligation légale de motiver. Réponse neutre et rapid
 ## Étape 4 : vérifier
 
 Relisez : ai-je demandé uniquement des pièces de la liste ? Mes critères sont-ils tous objectifs ? Mes calculs de taux d'effort sont-ils refaits (pas estimés) ? Les données personnelles collectées sont-elles limitées au nécessaire et leur conservation bornée (RGPD : pas de conservation des dossiers refusés au-delà de quelques mois sans accord) ?
+
+## Références
+
+Le droit stable de ce skill vit dans la fiche `data/` ci-dessous : consultez-la d'abord, ne repartez pas chercher sur le web ce qu'elle contient déjà. Une vérification en ligne (source officielle : Légifrance, service-public.fr) reste de mise quand la fiche le demande, quand sa « Prochaine revue » est dépassée, ou quand la fiche et le document en main se contredisent.
+
+- `data/pieces-justificatives.md` — la liste limitative des pièces exigibles et les pièces interdites (décret n° 2015-1437).
 
 ## Persistance (optionnel)
 

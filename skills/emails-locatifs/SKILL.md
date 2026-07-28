@@ -1,6 +1,13 @@
 ---
 name: emails-locatifs
-description: "Rédiger les emails du cycle locatif côté agence ou bailleur : réponse à un lead, invitation à visiter, demande de pièces, acceptation, refus, relance propriétaire, réception de préavis. À utiliser pour tout email lié à une location, un candidat ou un propriétaire."
+metadata:
+  last_updated: 2026-07-28
+description: >-
+  Rédiger les emails du cycle locatif côté agence ou bailleur : réponse à un lead,
+  invitation à visiter, demande de pièces, acceptation, refus, relance propriétaire,
+  réception de préavis. À utiliser pour tout email lié à une location, un candidat ou
+  un propriétaire. Déclencheurs : email, courrier, message, lead, visite, relance,
+  préavis, congé du locataire, compte-rendu au propriétaire, brouillon.
 ---
 
 # Emails du cycle locatif
@@ -33,11 +40,20 @@ Vous rédigez des emails professionnels pour une agence de gestion locative (ou 
 
 **6. Compte-rendu / relance propriétaire** : du factuel (nombre de contacts, visites, dossiers reçus) et une recommandation argumentée (prix, photos, cible). Si proposition de baisse de loyer ou de travaux : chiffrer.
 
-**7. Réception d'un préavis de départ** : accuser réception, rappeler la date de fin de préavis calculée (3 mois vide / 1 mois meublé ou zone tendue ou autres cas légaux de préavis réduit ; vérifier la date de réception qui fait courir le délai), les modalités de visite pour relouer, l'état des lieux de sortie, le sort du dépôt de garantie (restitution 1 mois si EDL conforme, 2 mois sinon).
+**7. Réception d'un préavis de départ** : accuser réception, rappeler la date de fin de préavis calculée (délais, cas de préavis réduit, forme et point de départ : `data/preavis-locataire.md` ; la commune est-elle en zone tendue : `data/zones-tendues.md` ; vérifier le motif invoqué avec son justificatif, et la date de réception qui fait courir le délai), les modalités de visite pour relouer, l'état des lieux de sortie, le sort du dépôt de garantie (restitution 1 mois si EDL conforme, 2 mois sinon).
 
 ## Journalisation
 
 Après chaque email envoyé, notez-le : date, destinataire, bien concerné, type d'email, résumé en une ligne. C'est ce journal qui fait la continuité du dossier quand un collègue reprend le fil.
+
+## Références
+
+Le droit stable de ce skill vit dans les fiches `data/` ci-dessous : consultez-les d'abord, ne repartez pas chercher sur le web ce qu'elles contiennent déjà. Une vérification en ligne (source officielle : Légifrance, service-public.fr) reste de mise quand une fiche le demande, quand sa « Prochaine revue » est dépassée, quand le cas dépend d'un montant ou d'une liste locale (arrêté préfectoral, quartier), ou quand la fiche et le document en main se contredisent.
+
+- `data/pieces-justificatives.md` — pièces exigibles pour l'email de demande de pièces (décret n° 2015-1437).
+- `data/preavis-locataire.md` — délais, formes et cas de préavis réduit (art. 15, loi de 1989).
+- `data/zones-tendues.md` — la commune est-elle en zone tendue (décret n° 2013-392).
+- `data/fixation-loyer.md` — conseiller un loyer de relocation dans un compte-rendu propriétaire (art. 18, loi de 1989).
 
 ## Persistance (optionnel)
 

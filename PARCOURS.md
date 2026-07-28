@@ -17,7 +17,7 @@ Dans les phases ci-dessous, les encadrés **« L'agence a peut-être déjà »**
 
 ## Phase 1 : prise de mandat avec le propriétaire
 
-1. **Premier contact et visite conseil** : visiter le bien, évaluer son état, estimer le loyer de marché, et vérifier ce que le droit permet (encadrement des loyers, gel du loyer si DPE F/G, plafonnement de la relocation en zone tendue).
+1. **Premier contact et visite conseil** : visiter le bien, évaluer son état, estimer le loyer de marché, et vérifier ce que le droit permet (encadrement des loyers, gel du loyer si DPE F/G, plafonnement de la relocation en zone tendue : [`data/zones-tendues.md`](data/zones-tendues.md) et [`data/fixation-loyer.md`](data/fixation-loyer.md)).
 2. **Vérifications côté propriétaire** : identité, titre de propriété, RIB ; si copropriété, règlement et restrictions éventuelles ; si indivision ou SCI, pouvoir du signataire.
 3. **Audit de louabilité** : décence ([`data/decence.md`](data/decence.md)) et DPE compatible ([`data/dpe-calendrier.md`](data/dpe-calendrier.md)) ; sinon, conseiller les travaux avant toute mise en location. → skill [`louabilite-diagnostics`](skills/louabilite-diagnostics/SKILL.md).
 4. **Collecte des diagnostics** : DPE, CREP (avant 1949), amiante, électricité/gaz (> 15 ans), ERP, bruit (zone aéroportuaire) ; validités dans [`data/diagnostics-location.md`](data/diagnostics-location.md). Commander les manquants. → skill [`louabilite-diagnostics`](skills/louabilite-diagnostics/SKILL.md).
@@ -29,7 +29,7 @@ Dans les phases ci-dessous, les encadrés **« L'agence a peut-être déjà »**
 ## Phase 2 : préparation de la mise en location
 
 7. **Préparer le bien** : photos, ménage et reprises, inventaire du mobilier chiffré si meublé.
-8. **Conditions financières définitives** : loyer vs référence majoré si zone encadrée ([`data/encadrement-loyers.md`](data/encadrement-loyers.md)), dépôt de garantie (1 mois vide / 2 meublé), honoraires dans les plafonds ([`data/honoraires-plafonds.md`](data/honoraires-plafonds.md)), part bailleur ≥ part locataire.
+8. **Conditions financières définitives** : loyer de relocation vérifié contre [`data/fixation-loyer.md`](data/fixation-loyer.md) en zone tendue, loyer vs référence majoré si zone encadrée ([`data/encadrement-loyers.md`](data/encadrement-loyers.md)), dépôt de garantie (1 mois vide / 2 meublé), honoraires dans les plafonds ([`data/honoraires-plafonds.md`](data/honoraires-plafonds.md)), part bailleur ≥ part locataire.
 9. **Annonce et diffusion** : rédaction conforme et publication portails. → skill [`annonce-location`](skills/annonce-location/SKILL.md).
 
 > **L'agence a peut-être déjà** : sa trame d'annonce et son style maison ; son photographe ou ses règles de prise de vue ; ses portails habituels et sa passerelle de diffusion ; son inventaire type de meublé. → Le style maison prime sur `templates/annonce.md`.

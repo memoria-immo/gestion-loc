@@ -2,6 +2,13 @@
 
 Ce journal raconte ce qui change à chaque version, en français courant. Si vous avez installé gestion-loc comme plugin Claude, chaque mise à jour du plugin vous apporte tout ce qui est décrit ici.
 
+## Version 0.4 (28 juillet 2026)
+
+- **Trois nouvelles fiches de référence**, datées et sourcées : les zones tendues (les 28 agglomérations historiques, l'extension de 2023, ce que la zone change — préavis d'un mois, plafonnement de la relocation, taxe sur les logements vacants — et les trois zonages à ne pas confondre), la fixation du loyer à la mise en location (gel des F et G, plafond de relocation en zone tendue et ses exceptions, encadrement, avec un cas travaillé : Toulouse, logement vacant depuis plus de 18 mois), et le préavis du locataire (délais, cas de préavis réduit, forme et point de départ).
+- **Les fiches d'abord, le web ensuite** : chaque skill métier se termine désormais par une section « Références » qui liste ses fiches `data/` et pose la règle — le droit stable est dans les fiches, la recherche en ligne sert à vérifier ce qui évolue (arrêtés locaux, revues échues), pas à retrouver ce que les fiches contiennent déjà.
+- **Zone tendue n'est pas encadrement des loyers** : la fiche d'encadrement le dit désormais noir sur blanc (Toulouse est en zone tendue sans encadrement), et les skills d'annonce et de bail vérifient aussi le plafond de relocation, pas seulement le loyer de référence.
+- **Un frontmatter plus utile** : chaque skill porte sa date de dernière revue (`metadata.last_updated`) et une description enrichie de mots-clés déclencheurs, plafonnée à 600 caractères — c'est elle que l'agent lit pour choisir le bon skill. Les contrôles automatiques vérifient le tout.
+
 ## Version 0.3 (28 juillet 2026)
 
 - **Trois nouveaux skills** qui complètent le parcours jusqu'à l'entrée du locataire : vérifier qu'un bien peut être loué et contrôler ses diagnostics (`louabilite-diagnostics`), préparer le bail à signer et l'acte de cautionnement (`redaction-bail`), préparer l'état des lieux d'entrée (`etat-des-lieux-entree`).

@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 // Contrôles de cohérence du repo — zéro dépendance.
-// - chaque skills/*/SKILL.md a un frontmatter avec name (= nom du dossier) et description
+// - chaque skills/*/SKILL.md a un frontmatter avec name (= nom du dossier),
+//   description (≤ 600 caractères : elle est chargée en contexte à chaque session)
+//   et metadata.last_updated (date de dernière revue humaine du skill, AAAA-MM-JJ)
 // - chaque fiche data/*.md porte une ligne « Dernière vérification »
 // - les liens Markdown relatifs pointent vers des fichiers existants
 import { readdirSync, readFileSync, statSync, existsSync } from 'node:fs';
@@ -9,14 +11,47 @@ import { join, dirname, resolve } from 'node:path';
 const ROOT = resolve(dirname(new URL(import.meta.url).pathname), '..');
 const errors = [];
 
+const DESCRIPTION_MAX = 600;
+
+// Parseur minimal du sous-ensemble YAML utilisé par les frontmatters du repo :
+// scalaires une-ligne (quotés ou non), block scalars (| |- > >-) repliés en une
+// ligne logique, et un niveau de mapping imbriqué (metadata:). Pas un parseur
+// YAML général : juste ce que les SKILL.md du repo emploient.
 function parseFrontmatter(content) {
   if (!content.startsWith('---\n')) return null;
   const end = content.indexOf('\n---', 4);
   if (end === -1) return null;
+  const lines = content.slice(4, end).split('\n');
   const fields = {};
-  for (const line of content.slice(4, end).split('\n')) {
-    const m = line.match(/^([a-z_-]+):\s*(.*)$/);
-    if (m) fields[m[1]] = m[2].trim();
+  let i = 0;
+  while (i < lines.length) {
+    const m = lines[i].match(/^([a-z_-]+):\s*(.*)$/);
+    if (!m) { i++; continue; }
+    const [, key, rawValue] = m;
+    if (/^[|>]-?$/.test(rawValue)) {
+      // block scalar : replier les lignes indentées suivantes en un paragraphe
+      const block = [];
+      i++;
+      while (i < lines.length && (/^\s+\S/.test(lines[i]) || lines[i].trim() === '')) {
+        block.push(lines[i].trim());
+        i++;
+      }
+      fields[key] = block.join(' ').trim();
+    } else if (rawValue === '') {
+      // mapping imbriqué : collecter les `clé: valeur` indentés
+      const nested = {};
+      i++;
+      while (i < lines.length) {
+        const nm = lines[i].match(/^\s+([a-z_-]+):\s*(.*)$/);
+        if (!nm) break;
+        nested[nm[1]] = nm[2].trim();
+        i++;
+      }
+      fields[key] = nested;
+    } else {
+      fields[key] = rawValue.trim().replace(/^"([\s\S]*)"$/, '$1');
+      i++;
+    }
   }
   return fields;
 }
@@ -35,7 +70,15 @@ for (const name of readdirSync(skillsDir).sort()) {
   if (!fm) errors.push(`skills/${name}/SKILL.md : frontmatter absent ou non refermé`);
   else {
     if (fm.name !== name) errors.push(`skills/${name}/SKILL.md : name « ${fm.name ?? ''} » ≠ dossier « ${name} »`);
-    if (!fm.description) errors.push(`skills/${name}/SKILL.md : description absente ou vide`);
+    const desc = typeof fm.description === 'string' ? fm.description : '';
+    if (!desc) errors.push(`skills/${name}/SKILL.md : description absente ou vide`);
+    else if (desc.length > DESCRIPTION_MAX) {
+      errors.push(`skills/${name}/SKILL.md : description trop longue (${desc.length} > ${DESCRIPTION_MAX} caractères — elle est chargée en contexte à chaque session)`);
+    }
+    const lastUpdated = fm.metadata && fm.metadata.last_updated;
+    if (!lastUpdated || !/^\d{4}-\d{2}-\d{2}$/.test(lastUpdated)) {
+      errors.push(`skills/${name}/SKILL.md : metadata.last_updated absent ou invalide (attendu : date AAAA-MM-JJ de la dernière revue du skill)`);
+    }
   }
 }
 
