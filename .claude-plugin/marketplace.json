@@ -5,10 +5,15 @@
     "url": "https://memoria.immo"
   },
   "description": "Skills open source de gestion locative française pour agents IA — le droit, les procédures et les modèles du métier, maintenus par l'équipe de memoria.",
+  "metadata": {
+    "version": "0.4.0",
+    "repository": "https://github.com/memoria-immo/gestion-loc"
+  },
   "plugins": [
     {
       "name": "gestion-loc",
       "source": "./",
+      "version": "0.4.0",
       "description": "La gestion locative française pour votre agent IA : annonce conforme, dossier de candidature, bail et mandat, emails du cycle locatif. Quatre skills métier et un guide de démarrage, les fiches réglementaires à jour et les modèles qui vont avec. Gratuit, open source (MIT)."
     }
   ]

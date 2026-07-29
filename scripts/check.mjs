@@ -5,6 +5,7 @@
 //   et metadata.last_updated (date de dernière revue humaine du skill, AAAA-MM-JJ)
 // - chaque fiche data/*.md porte une ligne « Dernière vérification »
 // - les liens Markdown relatifs pointent vers des fichiers existants
+// - plugin.json et marketplace.json annoncent la même version
 import { readdirSync, readFileSync, statSync, existsSync } from 'node:fs';
 import { join, dirname, resolve } from 'node:path';
 
@@ -112,6 +113,19 @@ for (const file of mdFiles(ROOT)) {
     if (!existsSync(resolve(dirname(file), clean))) {
       errors.push(`${file.slice(ROOT.length + 1)} : lien cassé → ${target}`);
     }
+  }
+}
+
+// 4. Version du plugin — Claude Desktop lit celle du marketplace pour afficher
+// la version installée et proposer la mise à jour : elle doit suivre plugin.json.
+const pluginVersion = JSON.parse(readFileSync(join(ROOT, '.claude-plugin', 'plugin.json'), 'utf8')).version;
+const marketplace = JSON.parse(readFileSync(join(ROOT, '.claude-plugin', 'marketplace.json'), 'utf8'));
+for (const [where, v] of [
+  ['metadata.version', marketplace.metadata?.version],
+  ...(marketplace.plugins ?? []).map((p, i) => [`plugins[${i}].version`, p.version]),
+]) {
+  if (v !== pluginVersion) {
+    errors.push(`.claude-plugin/marketplace.json : ${where} « ${v ?? 'absent'} » ≠ plugin.json « ${pluginVersion} »`);
   }
 }
 
