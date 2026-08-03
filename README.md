@@ -1,10 +1,10 @@
 # location
 
-**Skills pour agents IA spécialisés dans la mise en location en France.**
+**Des skills qui apprennent la mise en location en France à l'agent IA de votre agence.**
 
-La location d'un logement en France, c'est un empilement de règles : loi du 6 juillet 1989, loi ALUR, loi Hoguet, loi Climat et Résilience, décret sur les pièces justificatives, encadrement des loyers, plafonds d'honoraires, calendrier DPE… Personne ne retient tout ça de tête. Votre agent IA, si.
+Une mise en location en France, c'est un empilement de règles : loi du 6 juillet 1989, loi ALUR, loi Hoguet, loi Climat et Résilience, décret sur les pièces justificatives, encadrement des loyers, plafonds d'honoraires, calendrier DPE… Personne ne retient tout ça de tête. Votre agent IA, si.
 
-**location** est une collection de skills en Markdown pur, gratuits et open source, qui donnent à n'importe quel agent IA (Claude, Claude Code, Cursor, Windsurf, ChatGPT…) les règles et les réflexes du métier. Pas de compte à créer, pas d'API, pas de dépendance : des fichiers texte que votre agent lit, et c'est tout.
+**location** est une collection de skills en Markdown pur, gratuits et open source, qui donnent à n'importe quel agent IA (Claude, Claude Code, Cursor, Windsurf, ChatGPT…) les règles et les réflexes du métier. Votre agent vérifie qu'un bien est louable, rédige une annonce conforme, contrôle les dossiers de candidature, prépare le bail et l'état des lieux d'entrée, écrit les emails aux candidats. Pas de compte, pas d'API : des fichiers texte que votre agent lit, et c'est tout.
 
 > Maintenu par l'équipe de [memoria](https://memoria.immo).
 
