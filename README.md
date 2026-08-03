@@ -1,10 +1,10 @@
-# gestion-loc
+# location
 
-**Skills pour agents IA spécialisés dans la gestion locative française.**
+**Skills pour agents IA spécialisés dans la mise en location en France.**
 
 La location d'un logement en France, c'est un empilement de règles : loi du 6 juillet 1989, loi ALUR, loi Hoguet, loi Climat et Résilience, décret sur les pièces justificatives, encadrement des loyers, plafonds d'honoraires, calendrier DPE… Personne ne retient tout ça de tête. Votre agent IA, si.
 
-**gestion-loc** est une collection de skills en Markdown pur, gratuits et open source, qui donnent à n'importe quel agent IA (Claude, Claude Code, Cursor, Windsurf, ChatGPT…) les règles et les réflexes du métier. Pas de compte à créer, pas d'API, pas de dépendance : des fichiers texte que votre agent lit, et c'est tout.
+**location** est une collection de skills en Markdown pur, gratuits et open source, qui donnent à n'importe quel agent IA (Claude, Claude Code, Cursor, Windsurf, ChatGPT…) les règles et les réflexes du métier. Pas de compte à créer, pas d'API, pas de dépendance : des fichiers texte que votre agent lit, et c'est tout.
 
 > Maintenu par l'équipe de [memoria](https://memoria.immo).
 
@@ -31,28 +31,28 @@ Les skills s'appuient sur des fiches de référence dans [`data/`](data/) (calen
 Dans **Claude Desktop** (l'application Claude) : Paramètres → Plugins → « Ajouter une place de marché » → « Ajouter depuis un dépôt », et collez l'adresse du dépôt :
 
 ```
-https://github.com/memoria-immo/gestion-loc
+https://github.com/memoria-immo/location
 ```
 
-Sélectionnez la place de marché et lancez la synchronisation : le plugin **Gestion loc** apparaît, cliquez sur « + » pour l'installer. Sa fiche affiche la version installée et un bouton « Mettre à jour » quand une nouvelle version est publiée.
+Sélectionnez la place de marché et lancez la synchronisation : le plugin **Location** apparaît, cliquez sur « + » pour l'installer. Sa fiche affiche la version installée et un bouton « Mettre à jour » quand une nouvelle version est publiée.
 
 Dans **Claude Code**, deux commandes suffisent :
 
 ```
-/plugin marketplace add memoria-immo/gestion-loc
-/plugin install gestion-loc@gestion-loc
+/plugin marketplace add memoria-immo/location
+/plugin install location@location
 ```
 
-(ou via l'interface : Customize → Plugins → ajouter la marketplace `memoria-immo/gestion-loc`). Les mises à jour ne sont pas automatiques : pour les recevoir, `/plugin marketplace update gestion-loc` puis `/plugin update gestion-loc@gestion-loc`.
+(ou via l'interface : Customize → Plugins → ajouter la marketplace `memoria-immo/location`). Les mises à jour ne sont pas automatiques : pour les recevoir, `/plugin marketplace update location` puis `/plugin update location@location`.
 
 Dans les deux cas, les sept skills métier et le guide de démarrage s'installent d'un coup, avec leurs fiches de référence et leurs modèles. Une fois installé, dites « aidez-moi à démarrer » : l'agent se présente, crée votre mémo d'agence (deux questions, pas un questionnaire) et vous met au travail. Le [journal des versions](CHANGELOG.md) raconte ce qui change, en français courant.
 
-> Pas de plugins dans votre environnement (Cowork, Cursor, Windsurf, ChatGPT…) ? Ajoutez les fichiers à la main : le `SKILL.md` du skill voulu dans votre projet, ou le dossier du skill zippé dans vos capacités. Pas besoin de zipper vous-même : chaque [release GitHub](https://github.com/memoria-immo/gestion-loc/releases) fournit un zip autoportant par skill, fiches et modèles inclus.
+> Pas de plugins dans votre environnement (Cowork, Cursor, Windsurf, ChatGPT…) ? Ajoutez les fichiers à la main : le `SKILL.md` du skill voulu dans votre projet, ou le dossier du skill zippé dans vos capacités. Pas besoin de zipper vous-même : chaque [release GitHub](https://github.com/memoria-immo/location/releases) fournit un zip autoportant par skill, fiches et modèles inclus.
 
 **Option 2 (cloner le repo) :**
 
 ```bash
-git clone https://github.com/memoria-immo/gestion-loc.git
+git clone https://github.com/memoria-immo/location.git
 ```
 
 Puis indiquez le dossier à votre agent (dans Cursor/Windsurf : référencez les fichiers dans votre contexte ; dans Claude Code sans plugin : déposez les dossiers de `skills/` dans `.claude/skills/` ; dans Claude.ai : ajoutez le SKILL.md du skill voulu à votre projet).

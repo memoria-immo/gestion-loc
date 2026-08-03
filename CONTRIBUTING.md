@@ -1,4 +1,4 @@
-# Contribuer à gestion-loc
+# Contribuer à location
 
 Merci de contribuer. Cinq règles :
 

@@ -40,7 +40,7 @@ if (names.length === 0) fail('aucun skill dans skills/');
 rmSync(DIST, { recursive: true, force: true });
 mkdirSync(DIST, { recursive: true });
 
-const staging = mkdtempSync(join(tmpdir(), 'gestion-loc-package-'));
+const staging = mkdtempSync(join(tmpdir(), 'location-package-'));
 try {
   for (const name of names) {
     if (!existsSync(join(skillsDir, name, 'SKILL.md'))) fail(`skills/${name} : SKILL.md manquant`);

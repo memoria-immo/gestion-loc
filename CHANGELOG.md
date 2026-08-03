@@ -1,6 +1,10 @@
 # Journal des versions
 
-Ce journal raconte ce qui change à chaque version, en français courant. Si vous avez installé gestion-loc comme plugin Claude, chaque mise à jour du plugin vous apporte tout ce qui est décrit ici.
+Ce journal raconte ce qui change à chaque version, en français courant. Si vous avez installé **location** comme plugin Claude, chaque mise à jour du plugin vous apporte tout ce qui est décrit ici.
+
+## Version 0.5 (3 août 2026)
+
+- **gestion-loc devient location.** Le projet couvre la mise en location — de la prise de mandat à l'installation du locataire — et son nom le dit désormais. Le repo devient `memoria-immo/location` (l'ancienne adresse redirige automatiquement) et l'identifiant du plugin devient `location`. Si vous aviez installé le plugin sous l'ancien identifiant, réinstallez-le : `/plugin marketplace add memoria-immo/location` puis `/plugin install location@location`. La gestion locative au quotidien (quittancement, régularisation de charges, sortie, impayés…) reste un périmètre distinct, à venir.
 
 ## Version 0.4 (28 juillet 2026)
 

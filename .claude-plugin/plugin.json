@@ -1,18 +1,19 @@
 {
-  "name": "gestion-loc",
-  "description": "Skills métier de gestion locative française : vérifier la louabilité d'un bien et ses diagnostics, rédiger une annonce conforme, constituer et analyser un dossier de candidature, contrôler ou préparer un bail et son cautionnement, préparer l'état des lieux d'entrée, écrire les emails du cycle locatif — avec fiches réglementaires datées (DPE, encadrement des loyers, zones tendues, fixation du loyer, préavis du locataire, honoraires, pièces justificatives, décence, diagnostics), modèles prêts à l'emploi, et un guide de démarrage qui amorce votre mémo d'agence à la première utilisation.",
-  "version": "0.4.0",
+  "name": "location",
+  "description": "Skills métier de la mise en location en France : vérifier la louabilité d'un bien et ses diagnostics, rédiger une annonce conforme, constituer et analyser un dossier de candidature, contrôler ou préparer un bail et son cautionnement, préparer l'état des lieux d'entrée, écrire les emails du cycle locatif — avec fiches réglementaires datées (DPE, encadrement des loyers, zones tendues, fixation du loyer, préavis du locataire, honoraires, pièces justificatives, décence, diagnostics), modèles prêts à l'emploi, et un guide de démarrage qui amorce votre mémo d'agence à la première utilisation.",
+  "version": "0.5.0",
   "author": {
     "name": "memoria-immo",
     "url": "https://memoria.immo"
   },
-  "homepage": "https://github.com/memoria-immo/gestion-loc",
-  "repository": "https://github.com/memoria-immo/gestion-loc",
+  "homepage": "https://github.com/memoria-immo/location",
+  "repository": "https://github.com/memoria-immo/location",
   "license": "MIT",
   "keywords": [
     "immobilier",
-    "gestion-locative",
     "location",
+    "mise-en-location",
+    "gestion-locative",
     "france",
     "agence-immobiliere",
     "bail",

@@ -3,11 +3,11 @@ name: demarrage
 metadata:
   last_updated: 2026-07-28
 description: >-
-  Bien démarrer avec gestion-loc : présenter ce que les skills savent faire, créer le
+  Bien démarrer avec location : présenter ce que les skills savent faire, créer le
   mémo d'agence et orienter vers la bonne tâche. À utiliser juste après l'installation
   du plugin, ou quand l'utilisateur demande par où commencer, comment ça marche, ce que
   vous pouvez faire pour lui (« que pouvez-vous faire ? », « je viens d'installer
-  gestion-loc »), ou veut configurer son agence. Déclencheurs : démarrage, premiers pas,
+  location »), ou veut configurer son agence. Déclencheurs : démarrage, premiers pas,
   configuration, mémo d'agence.
 ---
 
@@ -15,7 +15,7 @@ description: >-
 
 > **Ne modifiez pas ce fichier** : vos adaptations vont dans votre mémo d'agence (ou dans memoria), et survivent ainsi aux mises à jour.
 
-Vous accueillez un professionnel de la gestion locative (ou un bailleur particulier) qui vient d'installer gestion-loc. Objectif : le mettre au travail en quelques minutes. C'est une prise de contact, pas un formulaire d'inscription : présenter, poser deux questions, travailler.
+Vous accueillez un professionnel de la gestion locative (ou un bailleur particulier) qui vient d'installer location. Objectif : le mettre au travail en quelques minutes. C'est une prise de contact, pas un formulaire d'inscription : présenter, poser deux questions, travailler.
 
 ## Étape 1 : présenter, en bref
 
